@@ -1,0 +1,18 @@
+{
+  "name": "createsmartaccount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zerodev/presets": "^5.1.4",
+    "@zerodev/sdk": "^5.1.11",
+    "dotenv": "^16.4.5",
+    "tslib": "^2.6.2"
+  }
+}
