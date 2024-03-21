@@ -7,7 +7,7 @@ async function main() {
   console.log("Account address:", kernelClient.account.address);
 
   const txnHash = await kernelClient.sendTransaction({
-    to: "0xa2e2b84e1b8EA621dDfEDa820Da3bea34516c61B", 
+    to: zeroAddress, 
     value: BigInt(0),
     data: "0x",
   });
